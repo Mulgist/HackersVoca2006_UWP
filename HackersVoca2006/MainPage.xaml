@@ -1,0 +1,591 @@
+﻿<Page
+    x:Class="HackersVoca2006.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HackersVoca2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0"
+                   Margin="10,10,10,10"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   Text="Hackers Vocabulary 2006"/>
+        <ScrollViewer Grid.Row="1"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical"
+                        Padding="5">
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn01"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 1"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn02"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 2"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn03"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 3"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn04"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 4"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn05"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 5"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn06"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 6"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn07"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 7"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn08"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 8"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn09"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 9"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn10"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 10"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn11"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 11"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn12"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 12"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn13"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 13"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn14"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 14"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn15"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 15"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn16"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 16"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn17"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 17"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn18"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 18"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn19"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 19"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn20"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 20"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn21"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 21"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn22"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 22"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn23"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 23"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn24"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 24"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn25"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 25"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn26"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 26"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn27"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 27"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn28"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 28" 
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn29"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 29"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn30"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 30"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn31"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 31"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn32"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 32"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn33"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 33"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn34"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 34"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn35"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 35"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn36"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 36"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn37"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 37"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn38"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 38"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn39"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 39" 
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn40"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 40"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn41"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 41"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn42"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 42"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn43"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 43"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn44"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 44"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn45"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 45"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn46"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 46"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn47"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 47"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn48"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 48"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn49"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 49"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn50"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 50"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn51"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 51"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn52"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 52"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn53"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 53"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn54"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 54"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn55"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 55"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn56"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 56"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn57"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 57"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="DayBtn58"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 58"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="DayBtn59"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 59"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="DayBtn60"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="Day 60"
+                            Click="DayBtn_Click" />
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
