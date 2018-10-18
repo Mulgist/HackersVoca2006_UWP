@@ -11,11 +11,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="48"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="10*"/>
+            <RowDefinition MinHeight="65" Height="20*"/>
+            <RowDefinition MinHeight="45" Height="10*"/>
+            <RowDefinition MinHeight="52" Height="10*"/>
+            <RowDefinition MinHeight="52" Height="10*"/>
+            <RowDefinition MinHeight="52" Height="10*"/>
             <RowDefinition Height="20*"/>
             <RowDefinition Height="54"/>
             <RowDefinition Height="64"/>
@@ -33,37 +33,37 @@
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="44"
+                   FontSize="40"
                    FontWeight="Bold"
-                   Text="incrementational"/>
+                   Text="in the course of"/>
         <TextBlock Grid.Row="2"
                    Name="MeanCountTextBlock"
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="24"
+                   FontSize="20"
                    Text="(세가지 뜻)"/>
         <TextBlock Grid.Row="3"
                    Name="KorTextBlock1"
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="32"
-                   Text="점진적인"/>
+                   FontSize="28"
+                   Text="자급자족하는, 제힘으로 살아가는"/>
         <TextBlock Grid.Row="4"
                    Name="KorTextBlock2"
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="32"
-                   Text="점진적인"/>
+                   FontSize="28"
+                   Text="자급자족하는, 제힘으로 살아가는"/>
         <TextBlock Grid.Row="5"
                    Name="KorTextBlock3"
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="32"
-                   Text="점진적인"/>
+                   FontSize="28"
+                   Text="자급자족하는, 제힘으로 살아가는"/>
         <CheckBox Grid.Row="7"
                   Name="ConfirmedChkBox"
                   Margin="10"

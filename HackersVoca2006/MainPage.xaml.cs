@@ -18,6 +18,7 @@ namespace HackersVoca2006
         {
             string dayStr = ((Button)sender).Content.ToString().Substring(4);
             int day = int.Parse(dayStr);
+            KeyValuePair<int, List<List<string>>> parameter;
 
             List<List<string>> result = Database.GetVoca(day);
             if (result.Count == 0)
@@ -26,7 +27,8 @@ namespace HackersVoca2006
             }
             else
             {
-                Frame.Navigate(typeof(VocaPage), result);
+                parameter = new KeyValuePair<int, List<List<string>>>(day, result);
+                Frame.Navigate(typeof(VocaPage), parameter);
             }
         }
 

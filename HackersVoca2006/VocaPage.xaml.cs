@@ -28,8 +28,9 @@ namespace HackersVoca2006
         {
             base.OnNavigatedTo(e);
 
-            entries = e.Parameter as List<List<string>>;
-
+            KeyValuePair<int, List<List<string>>> parameter = (KeyValuePair<int, List<List<string>>>)e.Parameter;
+            entries = parameter.Value;
+            DayTextBlock.Text = "Day " + parameter.Key.ToString();
             Start();
         }
 
