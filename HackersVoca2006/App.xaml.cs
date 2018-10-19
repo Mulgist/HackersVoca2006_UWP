@@ -5,18 +5,27 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using HackersVoca2006Data;
+using Windows.Storage;
 
 namespace HackersVoca2006
 {
     sealed partial class App : Application
     {
+        // 로컬 앱 세팅 데이터 폴더 검색
+        public static ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
+
         public App()
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
 
-            // 나중에 이것은 앱 설치 후 초기작업으로써만 수행할 수 있도록 해야 함.
-            Database.InitializeDatabase();
+            // 앱 첫 실행때만 데이터베이스 초기 작업을 수행한다.
+            // 데이터베이스 내용이 수정이 일어나면 앱을 삭제하고 다시 설치해야 한다.
+            if (localSettings.Values["firstrun"] == null)
+            {
+                Database.InitializeDatabase();
+                localSettings.Values["firstrun"] = true;
+            }
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)

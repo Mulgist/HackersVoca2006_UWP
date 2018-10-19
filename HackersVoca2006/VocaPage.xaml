@@ -49,7 +49,7 @@
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="28"
-                   Text="자급자족하는, 제힘으로 살아가는"/>
+                   Text="(책임•역할을) 맡다; 착수하다"/>
         <TextBlock Grid.Row="4"
                    Name="KorTextBlock2"
                    Margin="10"

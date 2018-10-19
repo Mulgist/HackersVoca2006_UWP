@@ -21,6 +21,9 @@ namespace HackersVoca2006
         public VocaPage()
         {
             InitializeComponent();
+
+            // 새로운 페이지에 계속 이 구문만 반복되면 누적된다.
+            // 그래서 페이지를 다시 로드해서 키를 누르면 이전에 썼던 페이지도 같이 동작한다. (키다운 누적)
             Window.Current.CoreWindow.KeyDown += CoreWindowKeyDown;
         }
 
@@ -112,6 +115,8 @@ namespace HackersVoca2006
             {
                 if (Frame.CanGoBack)
                 {
+                    // 키다운 누적 방지
+                    Window.Current.CoreWindow.KeyDown -= CoreWindowKeyDown;
                     Frame.GoBack();
                 }
             }
@@ -189,6 +194,8 @@ namespace HackersVoca2006
         }
 
         // 키 누름 이벤트 (키보드 등)
+        // 버그 발생 - 두 번째 Day를 수행 중 randomEntries가 null로 됨
+        // 키다운 누적으로 판단하고 해결함
         private void CoreWindowKeyDown(CoreWindow sender, KeyEventArgs args)
         {
             if (args.VirtualKey == VirtualKey.PageDown || args.VirtualKey == VirtualKey.Right
