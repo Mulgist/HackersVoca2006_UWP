@@ -49,14 +49,14 @@
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="28"
-                   Text="(책임•역할을) 맡다; 착수하다"/>
+                   Text="불확실한, 상반된 감정이 교차하는"/>
         <TextBlock Grid.Row="4"
                    Name="KorTextBlock2"
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    FontSize="28"
-                   Text="자급자족하는, 제힘으로 살아가는"/>
+                   Text="자동력이 없는, 움직일 수 없는"/>
         <TextBlock Grid.Row="5"
                    Name="KorTextBlock3"
                    Margin="10"

@@ -456,6 +456,124 @@ namespace HackersVoca2006Data
                 AddVoca(12, "stimulating", "활기(자극)을 주는", null, null);
                 AddVoca(12, "typify", "대표하다, 특징을 나타내다", null, null);
                 AddVoca(12, "wholesale", "대규모의", null, null);
+                AddVoca(13, "admire", "존경하다", null, null);
+                AddVoca(13, "adroit", "능숙한", null, null);
+                AddVoca(13, "ambivalent", "불확실한, 상반된 감정이 교차하는", null, null);
+                AddVoca(13, "camouflag", "감추다, 위장하다", null, null);
+                AddVoca(13, "composed", "차분한", "작성된", null);
+                AddVoca(13, "conceal", "숨기다", null, null);
+                AddVoca(13, "deliberate", "신중한", "의도적인", null);
+                AddVoca(13, "exhilarate", "들뜨게 하다", null, null);
+                AddVoca(13, "exposure", "폭로, 발각", null, null);
+                AddVoca(13, "glow", "빛나다", null, null);
+                AddVoca(13, "hiatus", "중단, 단절", null, null);
+                AddVoca(13, "incinerate", "태우다", null, null);
+                AddVoca(13, "ineffectively", "비효과적으로", null, null);
+                AddVoca(13, "inert", "자동력이 없는, 움직일 수 없는", null, null);
+                AddVoca(13, "luster", "광채", null, null);
+                AddVoca(13, "massive", "거대한, 막대한", null, null);
+                AddVoca(13, "occupy", "(주의•마음을) 끌다, 사로잡다", null, null);
+                AddVoca(13, "precede", "앞서다, 우선하다", null, null);
+                AddVoca(13, "prove", "입증하다", null, null);
+                AddVoca(13, "purchase", "얻다, 획득하다", null, null);
+                AddVoca(13, "restrict", "제한하다", null, null);
+                AddVoca(13, "repture", "불화; 파열", "찢다, 파열시키다", null);
+                AddVoca(13, "scrutiny", "정밀 조사", null, null);
+                AddVoca(13, "seductive", "유혹적인", null, null);
+                AddVoca(13, "seep", "스며들다", null, null);
+                AddVoca(13, "segment", "부분", null, null);
+                AddVoca(13, "shatter", "박살 내다", null, null);
+                AddVoca(13, "shock", "충격을 주다, 놀라게 하다", null, null);
+                AddVoca(13, "significant", "중요한", null, null);
+                AddVoca(13, "slab", "조각", null, null);
+                AddVoca(13, "slaughter", "학살하다", null, null);
+                AddVoca(13, "strife", "싸움", null, null);
+                AddVoca(13, "style", "방식", null, null);
+                AddVoca(13, "sustained", "지속적인", null, null);
+                AddVoca(13, "temperance", "자제, 절제", null, null);
+                AddVoca(13, "tremendous", "엄청난", null, null);
+                AddVoca(13, "vivid", "선명한; 생생한", null, null);
+                AddVoca(13, "wedge", "억지로 밀어 넣다", null, null);
+                AddVoca(14, "actually", "실제로", null, null);
+                AddVoca(14, "adorn", "장식하다", null, null);
+                AddVoca(14, "calculate", "추정하다, 어림잡다", null, null);
+                AddVoca(14, "claim", "요구하다", null, null);
+                AddVoca(14, "commemorate", "기념하다", null, null);
+                AddVoca(14, "conformity", "일치", null, null);
+                AddVoca(14, "copious", "풍부한", null, null);
+                AddVoca(14, "desire", "열망하다; 요구하다", null, null);
+                AddVoca(14, "diligently", "열심히", null, null);
+                AddVoca(14, "enthrall", "매혹하다", null, null);
+                AddVoca(14, "feast", "축제", "배불리 먹다", null);
+                AddVoca(14, "gather", "모으다", null, null);
+                AddVoca(14, "gauge", "평가하다, 판단하다", null, null);
+                AddVoca(14, "glue", "접착시키다", null, null);
+                AddVoca(14, "grand", "웅장한", null, null);
+                AddVoca(14, "hearten", "격려하다", null, null);
+                AddVoca(14, "hub", "중심", null, null);
+                AddVoca(14, "hybrid", "잡종, 혼합물", null, null);
+                AddVoca(14, "impetus", "자극", null, null);
+                AddVoca(14, "impovise", "(연주•연설 등을) 즉흥적으로 하다", null, null);
+                AddVoca(14, "irresistible", "매혹적인; 저항할 수 없는", null, null);
+                AddVoca(14, "incised", "새겨진", null, null);
+                AddVoca(14, "inherent in", "내재된", null, null);
+                AddVoca(14, "juvenile", "어린", null, null);
+                AddVoca(14, "main", "주요한", null, null);
+                AddVoca(14, "negligence", "부주의, 태만", null, null);
+                AddVoca(14, "outweigh", "~보다 뛰어나다", null, null);
+                AddVoca(14, "pigment", "색소", null, null);
+                AddVoca(14, "plausible", "그럴듯한", null, null);
+                AddVoca(14, "prudent", "조심성 있는, 신중한", null, null);
+                AddVoca(14, "revise", "수정하다", null, null);
+                AddVoca(14, "spirit", "정신", null, null);
+                AddVoca(14, "skillful", "숙련된", null, null);
+                AddVoca(14, "tenet", "원칙", null, null);
+                AddVoca(14, "transformation", "변화", null, null);
+                AddVoca(14, "traverse", "가로지르다", null, null);
+                AddVoca(14, "unbearbly", "극도로", null, null);
+                AddVoca(14, "variable", "변하기 쉬운", null, null);
+                AddVoca(14, "while", "~동안에; ~하는 한", "~할 지라도; ~와는 반대로", null);
+                AddVoca(15, "affluent", "부유한, 풍족한", null, null);
+                AddVoca(15, "aggravate", "악화시키다", null, null);
+                AddVoca(15, "cling to", "달라붙다, 고수하다", null, null);
+                AddVoca(15, "craft", "솜씨 있게 만들다", null, null);
+                AddVoca(15, "crest", "정상", null, null);
+                AddVoca(15, "critic", "비평가", null, null);
+                AddVoca(15, "cross-hatching", "음영", null, null);
+                AddVoca(15, "decimate", "많은 사람을 죽이다", null, null);
+                AddVoca(15, "disciple", "제자", null, null);
+                AddVoca(15, "disclose", "(사실 등을) 밝히다", null, null);
+                AddVoca(15, "disposition", "성질, 기질", null, null);
+                AddVoca(15, "dissimilar", "다른", null, null);
+                AddVoca(15, "dominant", "우세하", null, null);
+                AddVoca(15, "effect", "영향; 결과", null, null);
+                AddVoca(15, "enhance", "향상시키다, 개선하다", null, null);
+                AddVoca(15, "enunciate", "분명하게 발음하다", null, null);
+                AddVoca(15, "eradicate", "근절하다", null, null);
+                AddVoca(15, "harsh", "가혹한", null, null);
+                AddVoca(15, "heritage", "전통, 유산", null, null);
+                AddVoca(15, "inappropriate", "부적당한", null, null);
+                AddVoca(15, "insolent", "무례한", null, null);
+                AddVoca(15, "jeopardy", "위험", null, null);
+                AddVoca(15, "luxury", "사치", null, null);
+                AddVoca(15, "manipulate", "조종하다, 다루다", null, null);
+                AddVoca(15, "mock", "조롱하다", null, null);
+                AddVoca(15, "precious", "귀중한", null, null);
+                AddVoca(15, "regard", "관심; 호감; 존경", null, null);
+                AddVoca(15, "return", "되돌아가다", null, null);
+                AddVoca(15, "set", "~을 놓다", null, null);
+                AddVoca(15, "spacious", "넓은", null, null);
+                AddVoca(15, "spectator", "구경꾼", null, null);
+                AddVoca(15, "strict", "엄격한", null, null);
+                AddVoca(15, "swift", "빠른", null, null);
+                AddVoca(15, "synchronize", "동시에 일어나다", null, null);
+                AddVoca(15, "throughout", "~의 도처에", null, null);
+                AddVoca(15, "undermine", "약화시키다", null, null);
+                AddVoca(15, "upset", "뒤엎다, 전복시키다", "당황하게 하다", null);
+                AddVoca(15, "virtuous", "덕 있는", null, null);
+                AddVoca(15, "wrangle", "논쟁하다; 말다툼하다", null, null);
+                AddVoca(15, "withdraw", "물러나다", null, null);
+                AddVoca(15, "worship", "숭배하다", null, null);
             }
         }
 
@@ -493,8 +611,7 @@ namespace HackersVoca2006Data
             {
                 db.Open();
 
-                SqliteCommand selectCommand = new SqliteCommand
-                    ("SELECT * from Vocabularies", db);
+                SqliteCommand selectCommand = new SqliteCommand("SELECT * from Vocabularies", db);
 
                 SqliteDataReader query = selectCommand.ExecuteReader();
 
@@ -514,13 +631,11 @@ namespace HackersVoca2006Data
             List<List<string>> entries = new List<List<string>>();
             List<string> record = null;
 
-            using (SqliteConnection db =
-                new SqliteConnection("Filename=hackersVoca2006.db"))
+            using (SqliteConnection db = new SqliteConnection("Filename=hackersVoca2006.db"))
             {
                 db.Open();
 
-                SqliteCommand selectCommand = new SqliteCommand
-                    ("SELECT * FROM Vocabularies WHERE Day = @Day", db);
+                SqliteCommand selectCommand = new SqliteCommand("SELECT * FROM Vocabularies WHERE Day = @Day", db);
                 selectCommand.Parameters.AddWithValue("@Day", day);
 
                 SqliteDataReader query = selectCommand.ExecuteReader();
