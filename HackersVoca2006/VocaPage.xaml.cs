@@ -37,6 +37,15 @@ namespace HackersVoca2006
             Start();
         }
 
+        // 페이지가 이동될때 마지막으로 할 행동
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            base.OnNavigatedFrom(e);
+
+            // 범용으로 키다운 컨트롤을 없앤다. (키다운 누적 방지)
+            Window.Current.CoreWindow.KeyDown -= CoreWindowKeyDown;
+        }
+
         private void PrevBtn_Click(object sender, RoutedEventArgs e)
         {
             Prev();
@@ -115,8 +124,6 @@ namespace HackersVoca2006
             {
                 if (Frame.CanGoBack)
                 {
-                    // 키다운 누적 방지
-                    Window.Current.CoreWindow.KeyDown -= CoreWindowKeyDown;
                     Frame.GoBack();
                 }
             }
@@ -206,7 +213,7 @@ namespace HackersVoca2006
                 Prev();
         }
 
-        private void ConfirmedChkBox_KeyDown(object sender, Windows.UI.Xaml.Input.KeyRoutedEventArgs e)
+        public void ConfirmedChkBox_KeyDown(object sender, Windows.UI.Xaml.Input.KeyRoutedEventArgs e)
         {
             if (e.Key == VirtualKey.Enter)
             {

@@ -6,6 +6,8 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using HackersVoca2006Data;
 using Windows.Storage;
+using Windows.UI.Core;
+using Windows.ApplicationModel.Core;
 
 namespace HackersVoca2006
 {
@@ -26,6 +28,8 @@ namespace HackersVoca2006
                 Database.InitializeDatabase();
                 localSettings.Values["firstrun"] = true;
             }
+            if (localSettings.Values["IsBackExit"] == null)
+                localSettings.Values["IsBackExit"] = true;
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)
@@ -35,7 +39,6 @@ namespace HackersVoca2006
             if (rootFrame == null)
             {
                 rootFrame = new Frame();
-
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
@@ -45,6 +48,25 @@ namespace HackersVoca2006
 
                 // 현재 창에 프레임 넣기
                 Window.Current.Content = rootFrame;
+
+                // 뒤로가기 버튼 추가 (Desktop에서만)
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+
+                // 뒤로 가기 동작 설정 (MainPage에 놓으면 MainPage를 로드할 때마다 (GoBack 포함)
+                // 이 동작이 누적되게 된다.
+                SystemNavigationManager.GetForCurrentView().BackRequested += (s, a) =>
+                {
+                    if (rootFrame.CanGoBack)
+                    {
+                        rootFrame.GoBack();
+                        a.Handled = true;
+                    }
+                    else
+                    {
+                        if ((bool)localSettings.Values["IsBackExit"] == true)
+                            CoreApplication.Exit();
+                    }
+                };
             }
 
             if (e.PrelaunchActivated == false)

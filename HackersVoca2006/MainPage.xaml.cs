@@ -4,6 +4,8 @@ using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using HackersVoca2006Data;
+using Windows.UI.Core;
+using Windows.ApplicationModel.Core;
 
 namespace HackersVoca2006
 {
