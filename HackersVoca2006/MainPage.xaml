@@ -19,7 +19,7 @@
                    HorizontalAlignment="Left"
                    FontSize="22"
                    FontWeight="Bold"
-                   Text="Hackers Vocabulary 2006"/>
+                   Text="Hackers Vocabulary 2006 + Extra"/>
         <ScrollViewer Grid.Row="1"
                       HorizontalScrollBarVisibility="Auto"
                       VerticalScrollBarVisibility="Auto">
@@ -583,6 +583,34 @@
                             HorizontalAlignment="Stretch"
                             Margin="10"
                             Content="Day 60"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="SpBtn1"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 1"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="SpBtn2"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 2"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="SpBtn3"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 3"
                             Click="DayBtn_Click" />
                 </Grid>
             </StackPanel>

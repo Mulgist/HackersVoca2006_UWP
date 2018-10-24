@@ -545,7 +545,7 @@ namespace HackersVoca2006Data
                 AddVoca(15, "disclose", "(사실 등을) 밝히다", null, null);
                 AddVoca(15, "disposition", "성질, 기질", null, null);
                 AddVoca(15, "dissimilar", "다른", null, null);
-                AddVoca(15, "dominant", "우세하", null, null);
+                AddVoca(15, "dominant", "우세한", null, null);
                 AddVoca(15, "effect", "영향; 결과", null, null);
                 AddVoca(15, "enhance", "향상시키다, 개선하다", null, null);
                 AddVoca(15, "enunciate", "분명하게 발음하다", null, null);
@@ -648,7 +648,528 @@ namespace HackersVoca2006Data
                 AddVoca(17, "rival", "경쟁자", "경쟁하다", null);
                 AddVoca(17, "shovel", "(삽으로) 파다", null, null);
                 AddVoca(17, "succinct", "간결한", null, null);
-                AddVoca(17, "tie", "관계", null, null);
+                AddVoca(17, "shovel", "(삽으로) 파다", null, null);
+                AddVoca(17, "succinct", "간결한", null, null);
+                AddVoca(17, "tie", "관계", "묶다", null);
+                AddVoca(18, "ability", "능력", null, null);
+                AddVoca(18, "accessible", "이용 가능한, 접근하기 쉬운", null, null);
+                AddVoca(18, "accord", "주다, 수여하다; 일치하다", null, null);
+                AddVoca(18, "appear", "~인 듯하다, ~인 것 같이 보인다", null, null);
+                AddVoca(18, "be rooted in", "~에 근거를 두다, ~에서 유래하다", null, null);
+                AddVoca(18, "bog", "늪, 습지", null, null);
+                AddVoca(18, "collaborate", "협력하다", null, null);
+                AddVoca(18, "crucible", "도가니, 용광로", null, null);
+                AddVoca(18, "crub", "제한(억제)하다", null, null);
+                AddVoca(18, "cycle", "주기", null, null);
+                AddVoca(18, "deem", "~라고 여기다", null, null);
+                AddVoca(18, "devout", "독실한", null, null);
+                AddVoca(18, "disperse", "흩어지게 하다", null, null);
+                AddVoca(18, "economical", "절약하는", null, null);
+                AddVoca(18, "eventually", "결국", null, null);
+                AddVoca(18, "faint", "희미한", "기절하다", null);
+                AddVoca(18, "financial", "재정상의", null, null);
+                AddVoca(18, "frighten", "두렵게 하다", null, null);
+                AddVoca(18, "geognosy", "지질학", null, null);
+                AddVoca(18, "give way to", "물러가다, 양보하다", null, null);
+                AddVoca(18, "immense", "거대한, 막대한", null, null);
+                AddVoca(18, "impact", "영향", null, null);
+                AddVoca(18, "ingenuity", "독창성, 창의력", null, null);
+                AddVoca(18, "in keeping with", "~와 일치하여", null, null);
+                AddVoca(18, "job", "일, 직무", null, null);
+                AddVoca(18, "lethargic", "무기력한", null, null);
+                AddVoca(18, "meager", "부족한", null, null);
+                AddVoca(18, "parody", "풍자적 변형, 희화화", null, null);
+                AddVoca(18, "refuge", "피난처, 은신처", null, null);
+                AddVoca(18, "rural", "시골의", null, null);
+                AddVoca(18, "scrub", "북북 문지르다", null, null);
+                AddVoca(18, "secure", "확보하다", "안전한", null);
+                AddVoca(18, "skepticism", "회의(론)", null, null);
+                AddVoca(18, "so far", "지금까지", null, null);
+                AddVoca(18, "spark", "야기하다", null, null);
+                AddVoca(18, "speculation", "추측", null, null);
+                AddVoca(18, "terrain", "지역", null, null);
+                AddVoca(18, "tumult", "혼란, 소란", null, null);
+                AddVoca(18, "unlimited", "무한한", null, null);
+                AddVoca(18, "vagarious", "변덕스러운", null, null);
+                AddVoca(18, "volume", "책", null, null);
+                AddVoca(19, "advent", "출현", null, null);
+                AddVoca(19, "article", "(개개의) 물품", null, null);
+                AddVoca(19, "assembly", "의회", null, null);
+                AddVoca(19, "associated", "연관된", null, null);
+                AddVoca(19, "aware", "~을 알고 있는", null, null);
+                AddVoca(19, "bank", "물가, 기슭", null, null);
+                AddVoca(19, "by and large", "전반적으로, 대체로", null, null);
+                AddVoca(19, "challenge", "난제", "도전하다, 물리치다", null);
+                AddVoca(19, "compress", "압축하다", null, null);
+                AddVoca(19, "consort", "교제하다", null, null);
+                AddVoca(19, "construe", "해석하다", null, null);
+                AddVoca(19, "correct", "고치다, 바로잡다", null, null);
+                AddVoca(19, "curious", "호기심이 강한", null, null);
+                AddVoca(19, "deadly", "치명적인", null, null);
+                AddVoca(19, "defeated", "패배한", null, null);
+                AddVoca(19, "deplete", "고갈시키다", null, null);
+                AddVoca(19, "edge", "가장자리", null, null);
+                AddVoca(19, "elude", "피하다", null, null);
+                AddVoca(19, "endow", "부여하다", null, null);
+                AddVoca(19, "exceedingly", "지나칠 정도로", null, null);
+                AddVoca(19, "far-reaching", "방대한", null, null);
+                AddVoca(19, "fluster", "혼란시키다", null, null);
+                AddVoca(19, "guess", "추측하다", null, null);
+                AddVoca(19, "importance", "중요함", null, null);
+                AddVoca(19, "interfere", "방해하다, 간섭하다", null, null);
+                AddVoca(19, "irksome", "지루한", null, null);
+                AddVoca(19, "last", "마지막의", "지속하다", null);
+                AddVoca(19, "manage", "관리하다", null, null);
+                AddVoca(19, "mastery", "전문 기술, 숙달", null, null);
+                AddVoca(19, "monopolize", "독점하다", null, null);
+                AddVoca(19, "overcome", "이기다, 정복하다", null, null);
+                AddVoca(19, "ratify", "승인하다", null, null);
+                AddVoca(19, "replica", "복제", null, null);
+                AddVoca(19, "shift", "옮기다, 바꾸다", null, null);
+                AddVoca(19, "stride", "진보, 발전", null, null);
+                AddVoca(19, "subject to", "(영향을) 받기 쉬운", null, null);
+                AddVoca(19, "successive", "연속적인", null, null);
+                AddVoca(19, "transition", "변화", null, null);
+                AddVoca(19, "undertaking", "사업, 과제", null, null);
+                AddVoca(20, "accurate", "정확한", null, null);
+                AddVoca(20, "advisor", "고문, 자문역", null, null);
+                AddVoca(20, "antagonize", "대항하다", null, null);
+                AddVoca(20, "architecture", "구조", null, null);
+                AddVoca(20, "assure", "확신시키다", null, null);
+                AddVoca(20, "bond", "유대, 결속", null, null);
+                AddVoca(20, "brave", "대담한", null, null);
+                AddVoca(20, "crucial", "중대한", null, null);
+                AddVoca(20, "complement", "보충, 보완", null, null);
+                AddVoca(20, "comprise", "구성되다", null, null);
+                AddVoca(20, "counter to", "~와 정반대로", null, null);
+                AddVoca(20, "daring", "용감한", null, null);
+                AddVoca(20, "devise", "고안하다", null, null);
+                AddVoca(20, "duplicate", "복사(복제)하다", null, null);
+                AddVoca(20, "dwindle", "줄다, 감소시키다", null, null);
+                AddVoca(20, "embody", "구현하다", "~을 포함하다", null);
+                AddVoca(20, "etch", "식각하다, 새기다", null, null);
+                AddVoca(20, "flash", "번쩍이다", null, null);
+                AddVoca(20, "imaginable", "상상할 수 있는", null, null);
+                AddVoca(20, "infectious", "전염성의", null, null);
+                AddVoca(20, "innumerable", "무수한", null, null);
+                AddVoca(20, "invariable", "불변의", null, null);
+                AddVoca(20, "meditate", "숙고하다, 깊이 생각하다", null, null);
+                AddVoca(20, "opposite", "(성질•의미 등이) 정반대의", "정반대", null);
+                AddVoca(20, "outdo", "~을 능가하다", null, null);
+                AddVoca(20, "outline", "개요; 윤곽", null, null);
+                AddVoca(20, "parallel", "~와 유사한, 평행의", "~에 필적하다", null);
+                AddVoca(20, "preeminent", "탁월한", null, null);
+                AddVoca(20, "reassuring", "용기를 북돋는", null, null);
+                AddVoca(20, "regulate", "조절하다", null, null);
+                AddVoca(20, "respectful", "공손한; 존경심을 보이는", null, null);
+                AddVoca(20, "shrink", "줄어들다", null, null);
+                AddVoca(20, "skill", "기술", null, null);
+                AddVoca(20, "steadily", "지속적으로", null, null);
+                AddVoca(20, "struggle", "싸우다", null, null);
+                AddVoca(20, "subsequence", "이어서 일어나는 것", null, null);
+                AddVoca(20, "warrant", "정당화하다", null, null);
+                AddVoca(20, "ware", "제품", null, null);
+                AddVoca(20, "yet", "그럼에도 불구하고", null, null);
+                AddVoca(21, "abundance", "풍부함", null, null);
+                AddVoca(21, "adaptability", "적응성, 융통성", null, null);
+                AddVoca(21, "arrest", "체포하다", null, null);
+                AddVoca(21, "assigned", "정해진", null, null);
+                AddVoca(21, "be at odds with", "~와 불화하다", null, null);
+                AddVoca(21, "curiously", "신기하게도", null, null);
+                AddVoca(21, "dense", "짙은", null, null);
+                AddVoca(21, "deploy", "(전략적으로) 배치하다", null, null);
+                AddVoca(21, "discreet", "분별력 있는", null, null);
+                AddVoca(21, "entire", "전체의", null, null);
+                AddVoca(21, "evident", "분명한", null, null);
+                AddVoca(21, "extensive", "넓은", null, null);
+                AddVoca(21, "extinguish", "(불을) 끄다", "소멸시키다", null);
+                AddVoca(21, "feeble", "연약한", null, null);
+                AddVoca(21, "flavor", "특징", "맛, 풍미", null);
+                AddVoca(21, "fragmentary", "단편적인", null, null);
+                AddVoca(21, "in charge of", "~에 책임이 있는", null, null);
+                AddVoca(21, "minor", "중요치 않은", null, null);
+                AddVoca(21, "parcel out", "분할(분배)하다", null, null);
+                AddVoca(21, "perceive", "알아차리다", null, null);
+                AddVoca(21, "piece", "조각", "잇다, 접합하다", null);
+                AddVoca(21, "pledge", "맹세", null, null);
+                AddVoca(21, "portray", "묘사하다", null, null);
+                AddVoca(21, "project", "계획", "돌출하다", null);
+                AddVoca(21, "region", "지역", null, null);
+                AddVoca(21, "safe", "안전한", null, null);
+                AddVoca(21, "search", "탐색하다, 조사하다", null, null);
+                AddVoca(21, "seethe", "(화가 나서) 속이 끓다", null, null);
+                AddVoca(21, "shortcoming", "결점", null, null);
+                AddVoca(21, "special", "특별한", null, null);
+                AddVoca(21, "survey", "조사하다", null, null);
+                AddVoca(21, "temperament", "성질", null, null);
+                AddVoca(21, "tool", "도구", null, null);
+                AddVoca(21, "uninitiated", "미숙한", null, null);
+                AddVoca(21, "vanish", "사라지다", null, null);
+                AddVoca(21, "vile", "사악한", null, null);
+                AddVoca(21, "worldly", "세속적인", null, null);
+                AddVoca(21, "wreck", "파괴하다", null, null);
+                AddVoca(22, "accustomed", "익숙한", null, null);
+                AddVoca(22, "allege", "주장하다, 우기다", null, null);
+                AddVoca(22, "at the expense of", "~의 비용(대가)으로", null, null);
+                AddVoca(22, "breed", "기르다", null, null);
+                AddVoca(22, "chisel", "조각하다", null, null);
+                AddVoca(22, "conclusive", "결정적인", null, null);
+                AddVoca(22, "costly", "비싼", null, null);
+                AddVoca(22, "crack down", "~을 엄히 단속하다", null, null);
+                AddVoca(22, "degree", "정도", null, null);
+                AddVoca(22, "delicate", "섬세한", null, null);
+                AddVoca(22, "devote", "헌신하다", null, null);
+                AddVoca(22, "die", "죽다", null, null);
+                AddVoca(22, "distribute", "분배하다", null, null);
+                AddVoca(22, "emergency", "위기, 위급", null, null);
+                AddVoca(22, "fatal", "치명적인", null, null);
+                AddVoca(22, "guilty", "유죄의", null, null);
+                AddVoca(22, "hazard", "위험", null, null);
+                AddVoca(22, "in any case", "여하간에, 여하튼", null, null);
+                AddVoca(22, "incite", "자극하다", null, null);
+                AddVoca(22, "moist", "축축한", null, null);
+                AddVoca(22, "ornament", "장식하다", null, null);
+                AddVoca(22, "peripheral", "주변의", null, null);
+                AddVoca(22, "precipitous", "성급한", null, null);
+                AddVoca(22, "primarily", "주로", "본래, 처음에", null);
+                AddVoca(22, "primeval", "원시의", null, null);
+                AddVoca(22, "raw", "가공하지 않은, 날것의", null, null);
+                AddVoca(22, "reject", "거절하다", null, null);
+                AddVoca(22, "replenish", "보충하다", null, null);
+                AddVoca(22, "rot", "부패하다", null, null);
+                AddVoca(22, "ruin", "파괴하다", "폐허", null);
+                AddVoca(22, "runoff", "범람, 넘쳐흐름", null, null);
+                AddVoca(22, "shorten", "줄이다", null, null);
+                AddVoca(22, "spoil", "망치다, 손상시키다", null, null);
+                AddVoca(22, "standard", "기준", "보통의", null);
+                AddVoca(22, "stipulation", "조건", null, null);
+                AddVoca(22, "strikingly", "두드러지게", null, null);
+                AddVoca(22, "subtract", "빼다", null, null);
+                AddVoca(22, "thaw", "녹다", null, null);
+                AddVoca(22, "unpin", "핀(핀 종류의 것)을 빼다", null, null);
+                AddVoca(23, "akin to", "~와 유사한, ~에 가까운", null, null);
+                AddVoca(23, "appealing", "매력적인", null, null);
+                AddVoca(23, "approach", "접근법, 방법", "접근하다", null);
+                AddVoca(23, "argue", "논쟁하다", null, null);
+                AddVoca(23, "assert", "주장하다", null, null);
+                AddVoca(23, "brace", "받치다, 보강하다", null, null);
+                AddVoca(23, "catastrophic", "비참한, 비극적인", null, null);
+                AddVoca(23, "clarify", "명료하게 하다", null, null);
+                AddVoca(23, "constantly", "지속적으로", null, null);
+                AddVoca(23, "deception", "속임수, 사기", null, null);
+                AddVoca(23, "distinct", "별개의", "뚜렷한", null);
+                AddVoca(23, "edition", "(간행물)판", null, null);
+                AddVoca(23, "elaborate", "복잡한, 정교한", null, null);
+                AddVoca(23, "flaw", "결점", null, null);
+                AddVoca(23, "flood", "범람시키다", null, null);
+                AddVoca(23, "floods of", "다수의, 쇄도하는", null, null);
+                AddVoca(23, "habitat", "거주지", null, null);
+                AddVoca(23, "hint", "암시", null, null);
+                AddVoca(23, "intensify", "강화하다", null, null);
+                AddVoca(23, "intentional", "고의적인", null, null);
+                AddVoca(23, "kin", "친척", null, null);
+                AddVoca(23, "make one's way", "나아가다", null, null);
+                AddVoca(23, "measure", "측정하다", null, null);
+                AddVoca(23, "minute", "미세한; 정밀한", null, null);
+                AddVoca(23, "notwithstanding", "~에도 불구하고", null, null);
+                AddVoca(23, "profound", "깊은, 심오한", null, null);
+                AddVoca(23, "protect", "보호하다", null, null);
+                AddVoca(23, "receive", "받다, 얻다", null, null);
+                AddVoca(23, "relevance", "적절, 타당성; 관련성", null, null);
+                AddVoca(23, "reliance", "의존", null, null);
+                AddVoca(23, "represent", "묘사하다, 표현하다", "대표하다", null);
+                AddVoca(23, "require", "요구하다", null, null);
+                AddVoca(23, "resemble", "닮다", null, null);
+                AddVoca(23, "resolve", "결정하다", "해결하다", null);
+                AddVoca(23, "retard", "지체시키다", null, null);
+                AddVoca(23, "roster", "명부", null, null);
+                AddVoca(23, "scenic", "풍경이 아름다운", null, null);
+                AddVoca(24, "absurd", "불합리한", "어리석은", null);
+                AddVoca(24, "activity", "활기", null, null);
+                AddVoca(24, "assort", "분류하다", null, null);
+                AddVoca(24, "beam", "빛나다", null, null);
+                AddVoca(24, "break", "부수다", "(짧은) 휴식", null);
+                AddVoca(24, "bromide", "진부한(낡은) 말(생각)", null, null);
+                AddVoca(24, "common", "공통의", null, null);
+                AddVoca(24, "consciously", "의도적으로", null, null);
+                AddVoca(24, "context", "배경", null, null);
+                AddVoca(24, "damage", "손상, 손해", null, null);
+                AddVoca(24, "detach", "분리하다, 떼다", null, null);
+                AddVoca(24, "dormant", "활동하지 않는", null, null);
+                AddVoca(24, "environment", "환경", null, null);
+                AddVoca(24, "essential", "필수적인", null, null);
+                AddVoca(24, "heighten", "늘리다", null, null);
+                AddVoca(24, "hinder", "방해하다", null, null);
+                AddVoca(24, "impose", "강요하다", null, null);
+                AddVoca(24, "ingenious", "독창적인", null, null);
+                AddVoca(24, "insignificant", "사소한", null, null);
+                AddVoca(24, "keen", "예리한", null, null);
+                AddVoca(24, "lodge", "거처(피난처)를 제공하다", "숙박하다", null);
+                AddVoca(24, "power", "영향력, 힘", null, null);
+                AddVoca(24, "prominent", "눈에 띄는, 탁월한", null, null);
+                AddVoca(24, "provided", "만약 ~이라면", null, null);
+                AddVoca(24, "put together", "결합시키다", null, null);
+                AddVoca(24, "reflect", "숙고하다, 깊이 생각하다", "반영하다, 나타나다", null);
+                AddVoca(24, "relinquish", "포기하다, 버리다", null, null);
+                AddVoca(24, "representative", "전형적인", null, null);
+                AddVoca(24, "scan", "조사하다", null, null);
+                AddVoca(24, "sever", "절단하다, 분리하다", null, null);
+                AddVoca(24, "shortly", "곧", null, null);
+                AddVoca(24, "showcase", "전시하다", null, null);
+                AddVoca(24, "succession", "연속", null, null);
+                AddVoca(24, "summit", "정상", null, null);
+                AddVoca(24, "token", "상징, 표시", null, null);
+                AddVoca(24, "transmit", "전달하다", null, null);
+                AddVoca(24, "useful", "유익한, 도움이 되는", null, null);
+                AddVoca(24, "vestige", "흔적", null, null);
+                AddVoca(25, "aim", "목표하다", "목적", null);
+                AddVoca(25, "allocate", "책정하다; 배분하다", null, null);
+                AddVoca(25, "attribute to", "~에서 기인한, ~로 설명되는", null, null);
+                AddVoca(25, "authenticate", "입증하다, 증명하다", null, null);
+                AddVoca(25, "confuse", "혼란시키다", null, null);
+                AddVoca(25, "debate", "논쟁", null, null);
+                AddVoca(25, "detractor", "험담하는 사람", null, null);
+                AddVoca(25, "disguise", "속이다, 감추다", "위장", null);
+                AddVoca(25, "dissent", "의견을 달리하다", null, null);
+                AddVoca(25, "distinguish", "구별하다", null, null);
+                AddVoca(25, "draw", "끌다", null, null);
+                AddVoca(25, "drawback", "결점", null, null);
+                AddVoca(25, "dye", "염료, 물감", null, null);
+                AddVoca(25, "emit", "발신하다", null, null);
+                AddVoca(25, "expose", "드러내다", null, null);
+                AddVoca(25, "flawless", "흠 없는", null, null);
+                AddVoca(25, "frustrate", "좌절시키다", null, null);
+                AddVoca(25, "full", "완전한", "상세한", null);
+                AddVoca(25, "indicate", "넌지시 비추다", null, null);
+                AddVoca(25, "initially", "처음에", null, null);
+                AddVoca(25, "innovative", "기발한, 혁신적인", null, null);
+                AddVoca(25, "landslide", "산사태", null, null);
+                AddVoca(25, "malady", "질병", null, null);
+                AddVoca(25, "minimize", "줄이다", "과소평가하다", null);
+                AddVoca(25, "order", "명령", "질서, 조화", null);
+                AddVoca(25, "prohibit", "금지하다", null, null);
+                AddVoca(25, "reduce", "감소시키다", null, null);
+                AddVoca(25, "reveal", "드러내다", null, null);
+                AddVoca(25, "shed light on", "~을 명백히 하다", null, null);
+                AddVoca(25, "sink", "가라앉다", null, null);
+                AddVoca(25, "size", "크기", null, null);
+                AddVoca(25, "slope", "경사", null, null);
+                AddVoca(25, "subside", "진정되다", null, null);
+                AddVoca(25, "take place", "발생하다", null, null);
+                AddVoca(25, "though", "그러나", "~이지만, 비록 ~일지라도", null);
+                AddVoca(25, "underground", "비밀의", null, null);
+                AddVoca(26, "antipathy", "반감", null, null);
+                AddVoca(26, "applicable", "적용 가능한, 적절한", null, null);
+                AddVoca(26, "blot out", "가리다", null, null);
+                AddVoca(26, "bold", "대담한", null, null);
+                AddVoca(26, "boom", "번성하다", null, null);
+                AddVoca(26, "characteristic", "독특한", "특성", null);
+                AddVoca(26, "clear", "명쾌한", null, null);
+                AddVoca(26, "coarse", "거친, 천한", null, null);
+                AddVoca(26, "concentrate", "집중하다", "모으다", null);
+                AddVoca(26, "contemplate", "심사숙고하다", null, null);
+                AddVoca(26, "cripple", "손상시키다", null, null);
+                AddVoca(26, "demanding", "힘든, 큰 노력을 요하는", null, null);
+                AddVoca(26, "deviate", "벗어나다", null, null);
+                AddVoca(26, "discover", "확인하다, 찾아내다", null, null);
+                AddVoca(26, "discrete", "구별되는", null, null);
+                AddVoca(26, "encompass", "포함하다", null, null);
+                AddVoca(26, "entertain", "즐겁게 하다", null, null);
+                AddVoca(26, "far-sighted", "현명한", null, null);
+                AddVoca(26, "fluctuate", "변동하다", null, null);
+                AddVoca(26, "halt", "멈추다", null, null);
+                AddVoca(26, "incessantly", "끊임없이", null, null);
+                AddVoca(26, "leading", "우세한, 주된", null, null);
+                AddVoca(26, "modify", "변경하다", null, null);
+                AddVoca(26, "mutation", "변이, 변화", null, null);
+                AddVoca(26, "obelisk", "방첨탑, 오벨리스크", null, null);
+                AddVoca(26, "pastime", "기분 전환", null, null);
+                AddVoca(26, "rather than", "~대신에", null, null);
+                AddVoca(26, "receptacle", "그릇, 용기", null, null);
+                AddVoca(26, "rely", "의지하다", null, null);
+                AddVoca(26, "remote", "외딴, 멀리 떨어진", null, null);
+                AddVoca(26, "rotten", "썩은, 부패한", null, null);
+                AddVoca(26, "rove", "배회하다", null, null);
+                AddVoca(26, "shoddy", "조악한, (질이) 떨어지는", null, null);
+                AddVoca(26, "shred", "(갈기갈기) 찢다", null, null);
+                AddVoca(26, "simply", "단지", null, null);
+                AddVoca(26, "span", "기간", "~에 걸치다, 이르다", null);
+                AddVoca(26, "stun", "놀라게 하다", null, null);
+                AddVoca(26, "tranquil", "평온한, 차분한", null, null);
+                AddVoca(27, "assistance", "원조", null, null);
+                AddVoca(27, "avoid", "~을 피하다", null, null);
+                AddVoca(27, "best-suited", "가장 적절한", null, null);
+                AddVoca(27, "bridle", "굴레", null, null);
+                AddVoca(27, "classify", "분류하다", null, null);
+                AddVoca(27, "collectively", "공동으로", null, null);
+                AddVoca(27, "comparable", "유사한", null, null);
+                AddVoca(27, "cultivator", "경작자", null, null);
+                AddVoca(27, "designated", "지정된", null, null);
+                AddVoca(27, "detrimental", "해로운, 불리한", null, null);
+                AddVoca(27, "differentiate", "구별하다", null, null);
+                AddVoca(27, "display", "보여 주다", null, null);
+                AddVoca(27, "emissary", "사절, 특사", null, null);
+                AddVoca(27, "enact", "제정하다", null, null);
+                AddVoca(27, "evenly", "고르게, 일관되게", null, null);
+                AddVoca(27, "expedience", "편의", null, null);
+                AddVoca(27, "genuinely", "정말로", null, null);
+                AddVoca(27, "immediately", "즉시, 당장", null, null);
+                AddVoca(27, "important", "중요한", null, null);
+                AddVoca(27, "inconceivable", "상상도 못할", null, null);
+                AddVoca(27, "in progress", "진행 중인", null, null);
+                AddVoca(27, "it followed that ~", "그 결과로서 ~가 되었다", null, null);
+                AddVoca(27, "keep in touch", "연락을 유지하다", null, null);
+                AddVoca(27, "massacre", "대량학살", null, null);
+                AddVoca(27, "mean", "~을 의미하다", "비열한", "중간의");
+                AddVoca(27, "mute", "무언의", null, null);
+                AddVoca(27, "participate", "함께 하다", null, null);
+                AddVoca(27, "pit", "(사람•기술 등을) ~와 대항시키다", "구멍", null);
+                AddVoca(27, "raise", "올리다", null, null);
+                AddVoca(27, "rare", "드문", null, null);
+                AddVoca(27, "respectively", "각각", null, null);
+                AddVoca(27, "seemingly", "보기에", null, null);
+                AddVoca(27, "sporadically", "때때로, 간헐적으로", null, null);
+                AddVoca(27, "stringent", "엄한", null, null);
+                AddVoca(27, "superficial", "외면의", null, null);
+                AddVoca(27, "timid", "소심한", null, null);
+                AddVoca(27, "transport", "운송하다", null, null);
+                AddVoca(27, "unavoidable", "불가피한", null, null);
+                AddVoca(27, "uniform", "일관성 있는", null, null);
+                AddVoca(27, "unsubstantial", "비현실적인", "내용이 없는", null);
+
+                // 스페셜 단어 추가 (TOEIC용 단어)
+                AddVoca(61, "addition", "추가", null, null);
+                AddVoca(61, "extension", "연장", null, null);
+                AddVoca(61, "competitiveness", "경쟁력", null, null);
+                AddVoca(61, "productivity", "생산성", null, null);
+                AddVoca(61, "preference", "선호", null, null);
+                AddVoca(61, "payment", "납부", null, null);
+                AddVoca(61, "analysis", "분석", null, null);
+                AddVoca(61, "growth", "성장", null, null);
+                AddVoca(61, "enthusiasm", "열의", null, null);
+                AddVoca(61, "approval", "승인", null, null);
+                AddVoca(61, "disposal", "처분", null, null);
+                AddVoca(61, "removal", "제거", null, null);
+                AddVoca(61, "renewal", "갱신", null, null);
+                AddVoca(61, "arrival", "도착", null, null);
+                AddVoca(61, "appraisal", "평가", null, null);
+                AddVoca(61, "proposal", "제안", null, null);
+                AddVoca(61, "potential", "잠재력", null, null);
+                AddVoca(61, "individual", "개인", null, null);
+                AddVoca(61, "professional", "전문가", null, null);
+                AddVoca(61, "alternative", "대안(책)", null, null);
+                AddVoca(61, "representative", "대표자", null, null);
+                AddVoca(61, "objective", "목적", null, null);
+                AddVoca(61, "executive", "중역", null, null);
+                AddVoca(61, "initiative", "계획", null, null);
+                AddVoca(61, "perspective", "관점", null, null);
+                AddVoca(61, "planning", "계획 수립", null, null);
+                AddVoca(61, "accounting", "회계", null, null);
+                AddVoca(61, "funding", "자금(재정) 지원", null, null);
+                AddVoca(61, "dining", "식사", null, null);
+                AddVoca(61, "opening", "공석, 개막식", null, null);
+                AddVoca(61, "training", "훈련", null, null);
+                AddVoca(61, "marketing", "마케팅", null, null);
+                AddVoca(61, "spending", "지출", null, null);
+                AddVoca(61, "understanding", "이해", null, null);
+                AddVoca(61, "boarding", "탑승", null, null);
+                AddVoca(61, "housing", "주택", null, null);
+                AddVoca(61, "widening", "확장", null, null);
+                AddVoca(61, "remainder", "나머지", null, null);
+                AddVoca(61, "architect", "건축가", null, null);
+                AddVoca(61, "critic", "비평가", null, null);
+                AddVoca(61, "characteristic", "특성", null, null);
+                AddVoca(61, "assembly", "조립", null, null);
+                AddVoca(61, "delegate", "대표자", null, null);
+                AddVoca(61, "access", "접근, 이용, 접근하다, 이용하다", null, null);
+                AddVoca(61, "change", "변화, 변화하다", null, null);
+                AddVoca(61, "demand", "수요, 요구하다", null, null);
+                AddVoca(61, "estimate", "견적, 견적내다", null, null);
+                AddVoca(61, "experience", "경험, 경험하다", null, null);
+                AddVoca(61, "function", "기능, 기능하다", null, null);
+                AddVoca(61, "increase", "증가, 증가하다", null, null);
+                AddVoca(61, "manufacture", "제조, 제조하다", null, null);
+                AddVoca(61, "need", "필요, 필요로 하다", null, null);
+                AddVoca(61, "offer", "제안, 제안하다", null, null);
+                AddVoca(61, "purchase", "구입, 구입하다", null, null);
+                AddVoca(61, "research", "연구, 연구하다", null, null);
+                AddVoca(61, "request", "요청, 요청하다", null, null);
+                AddVoca(61, "review", "검토, 검토하다", null, null);
+                AddVoca(61, "stay", "체류, 체류하다", null, null);
+                AddVoca(61, "support", "지원, 지원하다", null, null);
+                AddVoca(61, "visit", "방문, 방문하다", null, null);
+                AddVoca(61, "work", "일, 일하다", null, null);
+                AddVoca(62, "information", "정보 (불가산)", null, null);
+                AddVoca(62, "knowledge", "지식 (불가산)", null, null);
+                AddVoca(62, "advice", "충고 (불가산)", null, null);
+                AddVoca(62, "access", "접근 (불가산)", null, null);
+                AddVoca(62, "money", "돈 (불가산)", null, null);
+                AddVoca(62, "cash", "현금 (불가산)", null, null);
+                AddVoca(62, "approval", "승인 (불가산)", null, null);
+                AddVoca(62, "consent", "허가 (불가산)", null, null);
+                AddVoca(62, "assistance", "보조 (불가산)", null, null);
+                AddVoca(62, "potential", "잠재력 (불가산)", null, null);
+                AddVoca(62, "equipment", "장비 (불가산)", null, null);
+                AddVoca(62, "baggage", "수하물 (불가산)", null, null);
+                AddVoca(62, "luggage", "수하물 (불가산)", null, null);
+                AddVoca(62, "clothing", "의류 (불가산)", null, null);
+                AddVoca(62, "furniture", "가구 (불가산)", null, null);
+                AddVoca(62, "stationery", "문구류 (불가산)", null, null);
+                AddVoca(62, "merchandise", "상품 (불가산)", null, null);
+                AddVoca(62, "representative", "대표자 (가산)", "직원 (가산)", null);
+                AddVoca(62, "employee", "직원 (가산)", null, null);
+                AddVoca(62, "official", "공무원 (가산)", null, null);
+                AddVoca(62, "applicant", "지원자 (가산)", null, null);
+                AddVoca(62, "attendant", "참석자 (가산)", null, null);
+                AddVoca(62, "discount", "할인 (가산)", null, null);
+                AddVoca(62, "sale", "할인 (가산)", null, null);
+                AddVoca(62, "refund", "환불 (가산)", null, null);
+                AddVoca(62, "price", "가격 (가산)", null, null);
+                AddVoca(62, "rate", "요금 (가산)", null, null);
+                AddVoca(62, "bonus", "보너스 (가산)", null, null);
+                AddVoca(62, "salary", "급여 (가산)", null, null);
+                AddVoca(62, "account", "계좌 (가산)", null, null);
+                AddVoca(62, "increase", "증가 (가산)", null, null);
+                AddVoca(62, "reduction", "감소 (가산)", null, null);
+                AddVoca(62, "change", "변화 (가산)", null, null);
+                AddVoca(62, "place", "장소 (가산)", null, null);
+                AddVoca(62, "request", "요청(사항) (가산)", null, null);
+                AddVoca(62, "complaint", "불만(사항) (가산)", null, null);
+                AddVoca(62, "decision", "결정 (가산)", null, null);
+                AddVoca(62, "benefit", "혜택 (가산)", null, null);
+                AddVoca(62, "reservation", "예약 (가산)", null, null);
+                AddVoca(62, "arrangement", "준비 (가산)", null, null);
+                AddVoca(62, "resource", "자원 (가산)", null, null);
+                AddVoca(62, "regulations", "규정 (주로 복수 가산)", null, null);
+                AddVoca(62, "precautions", "예방 조치 (주로 복수 가산)", null, null);
+                AddVoca(62, "instructions", "지시 사항 (주로 복수 가산)", null, null);
+                AddVoca(62, "guidelines", "지침 (주로 복수 가산)", null, null);
+                AddVoca(62, "standards", "기준 (주로 복수 가산)", null, null);
+                AddVoca(62, "procedures", "절차 (주로 복수 가산)", null, null);
+                AddVoca(62, "measures", "조치 (주로 복수 가산)", null, null);
+                AddVoca(62, "belongings", "소지품 (주로 복수 가산)", null, null);
+                AddVoca(62, "goods", "상품 (주로 복수 가산)", null, null);
+                AddVoca(62, "valuables", "귀중품 (주로 복수 가산)", null, null);
+                AddVoca(62, "earnings", "수익 (주로 복수 가산)", null, null);
+
+
+
+
+                // 부연설명 테이블 추가
+                db.Open();
+                tableCommand = "CREATE TABLE IF NOT EXISTS Explanations (" +
+                    "Day INTEGER PRIMARY KEY, " +
+                    "Explanation NVARCHAR(128) NOT NULL)";
+
+                createTable = new SqliteCommand(tableCommand, db);
+                createTable.ExecuteReader();
+                db.Close();
+
+                // 설명 추가
+                AddExplanation(61, "명사의 형태 및 동사와 형태가 동일한 명사");
+                AddExplanation(62, "가산명사와 불가산명사");
+                AddExplanation(63, "사람명사(=가산)와 사물/추상명사");
+                AddExplanation(64, "의미가 비슷한 가산/불가산명사");
             }
         }
 
@@ -677,6 +1198,27 @@ namespace HackersVoca2006Data
             }
         }
 
+        private static void AddExplanation(int day, string explanation)
+        {
+            using (SqliteConnection db = new SqliteConnection("Filename=hackersVoca2006.db"))
+            {
+                db.Open();
+
+                string insertCommand = "INSERT INTO Explanations SELECT @Day, @Explanation " +
+                    "WHERE NOT EXISTS (SELECT Day FROM Explanations WHERE Day=@Day);";
+
+                SqliteCommand insertVoca = new SqliteCommand(insertCommand, db);
+
+                insertVoca.Parameters.AddWithValue("@Day", day);
+                insertVoca.Parameters.AddWithValue("@Explanation", explanation);
+
+                insertVoca.ExecuteReader();
+
+                db.Close();
+            }
+        }
+
+        // 데이터베이스 범용 검색 함수
         public static List<string> GetData()
         {
             List<string> entries = new List<string>();
@@ -692,7 +1234,7 @@ namespace HackersVoca2006Data
 
                 while (query.Read())
                 {
-                    entries.Add(query.GetString(3));
+                    entries.Add(query.GetString(0));
                 }
 
                 db.Close();
@@ -732,6 +1274,31 @@ namespace HackersVoca2006Data
             }
 
             return entries;
+        }
+
+        public static string GetExplanation(int day)
+        {
+            string result = "";
+
+            using (SqliteConnection db =
+                new SqliteConnection("Filename=hackersVoca2006.db"))
+            {
+                db.Open();
+
+                SqliteCommand selectCommand = new SqliteCommand("SELECT Explanation from Explanations WHERE Day = @Day", db);
+                selectCommand.Parameters.AddWithValue("@Day", day);
+
+                SqliteDataReader query = selectCommand.ExecuteReader();
+
+                while (query.Read())
+                {
+                    result = query.GetString(0);
+                }
+
+                db.Close();
+            }
+
+            return result;
         }
     }
 }

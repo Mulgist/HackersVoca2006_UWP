@@ -7,6 +7,7 @@ using Windows.UI.Xaml.Navigation;
 using Windows.UI.Popups;
 using Windows.System;
 using Windows.UI.Core;
+using HackersVoca2006Data;
 
 namespace HackersVoca2006
 {
@@ -33,7 +34,16 @@ namespace HackersVoca2006
 
             KeyValuePair<int, List<List<string>>> parameter = (KeyValuePair<int, List<List<string>>>)e.Parameter;
             entries = parameter.Value;
-            DayTextBlock.Text = "Day " + parameter.Key.ToString();
+            if (parameter.Key <= 60)
+            {
+                DayTextBlock.Text = "Day " + parameter.Key.ToString();
+            }
+            else
+            {
+                string explanation = Database.GetExplanation(parameter.Key);
+                DayTextBlock.Text = "Special " + (parameter.Key - 60).ToString() + " - " + explanation;
+            }
+            
             Start();
         }
 
@@ -194,12 +204,6 @@ namespace HackersVoca2006
             return 3;
         }
 
-        private async void MessageBoxOpen(string content)
-        {
-            var dialog = new MessageDialog(content);
-            await dialog.ShowAsync();
-        }
-
         // 키 누름 이벤트 (키보드 등)
         // 버그 발생 - 두 번째 Day를 수행 중 randomEntries가 null로 됨
         // 키다운 누적으로 판단하고 해결함
@@ -224,6 +228,12 @@ namespace HackersVoca2006
                     else ConfirmedChkBox.IsChecked = true;
                 }
             }
+        }
+
+        private async void MessageBoxOpen(string content)
+        {
+            var dialog = new MessageDialog(content);
+            await dialog.ShowAsync();
         }
     }
 }

@@ -4,8 +4,6 @@ using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using HackersVoca2006Data;
-using Windows.UI.Core;
-using Windows.ApplicationModel.Core;
 
 namespace HackersVoca2006
 {
@@ -18,8 +16,18 @@ namespace HackersVoca2006
 
         private void DayBtn_Click(object sender, RoutedEventArgs e)
         {
-            string dayStr = ((Button)sender).Content.ToString().Substring(4);
-            int day = int.Parse(dayStr);
+            string dayStr = "";
+            int day = 0;
+            if (((Button)sender).Content.ToString().Substring(0,3) == "Day")
+            {
+                dayStr = ((Button)sender).Content.ToString().Substring(4);
+                day = int.Parse(dayStr);
+            }
+            else
+            {
+                dayStr = ((Button)sender).Content.ToString().Substring(3);
+                day = int.Parse(dayStr) + 60;
+            }
             KeyValuePair<int, List<List<string>>> parameter;
 
             List<List<string>> result = Database.GetVoca(day);

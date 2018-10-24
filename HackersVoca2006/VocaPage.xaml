@@ -11,8 +11,8 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="48"/>
-            <RowDefinition MinHeight="65" Height="20*"/>
-            <RowDefinition MinHeight="45" Height="10*"/>
+            <RowDefinition MinHeight="75" Height="20*"/>
+            <RowDefinition MinHeight="42" Height="10*"/>
             <RowDefinition MinHeight="52" Height="10*"/>
             <RowDefinition MinHeight="52" Height="10*"/>
             <RowDefinition MinHeight="52" Height="10*"/>
@@ -25,7 +25,7 @@
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
-                   FontSize="22"
+                   FontSize="20"
                    FontWeight="Bold"
                    Text="Day 1"/>
         <TextBlock Grid.Row="1"
