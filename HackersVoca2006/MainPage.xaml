@@ -641,6 +641,34 @@
                             Content="SP 6"
                             Click="DayBtn_Click" />
                 </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="SpBtn7"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 7"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="SpBtn8"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 8"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="SpBtn9"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 9"
+                            Click="DayBtn_Click" />
+                </Grid>
             </StackPanel>
         </ScrollViewer>
     </Grid>
