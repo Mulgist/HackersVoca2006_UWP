@@ -33,7 +33,7 @@
                    Margin="10"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontSize="40"
+                   FontSize="38"
                    FontWeight="Bold"
                    Text="in the course of"/>
         <TextBlock Grid.Row="2"

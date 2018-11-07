@@ -669,6 +669,90 @@
                             Content="SP 9"
                             Click="DayBtn_Click" />
                 </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="SpBtn10"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 10"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="SpBtn11"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 11"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="SpBtn12"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 12"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="SpBtn13"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 13"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="SpBtn14"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 14"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="SpBtn15"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 15"
+                            Click="DayBtn_Click" />
+                </Grid>
+                <Grid Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                        <ColumnDefinition Width="33*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Name="SpBtn16"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 16"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="1"
+                            Name="SpBtn17"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 17"
+                            Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="SpBtn18"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 18"
+                            Click="DayBtn_Click" />
+                </Grid>
             </StackPanel>
         </ScrollViewer>
     </Grid>
