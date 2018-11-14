@@ -17,6 +17,8 @@ namespace HackersVoca2006
         List<List<string>> randomEntries = null;
         List<string> currentVoca = null;
         List<int> confirmedVoca = null;
+        int count = 0;
+        int remainCount = 0;
         int index = 0;
 
         public VocaPage()
@@ -43,7 +45,10 @@ namespace HackersVoca2006
                 string explanation = Database.GetExplanation(parameter.Key);
                 DayTextBlock.Text = "Special " + (parameter.Key - 60).ToString() + " - " + explanation;
             }
-            
+
+            count = entries.Count;
+            remainCount = count;
+            RemainCntTextBlock.Text = remainCount.ToString() + " / " + count.ToString();
             Start();
         }
 
@@ -176,7 +181,12 @@ namespace HackersVoca2006
         private void NextVoca()
         {
             // 암기했는지 확인
-            if (ConfirmedChkBox.IsChecked.Value) confirmedVoca.Add(index);
+            if (ConfirmedChkBox.IsChecked.Value)
+            {
+                remainCount--;
+                RemainCntTextBlock.Text = remainCount.ToString() + " / " + count.ToString();
+                confirmedVoca.Add(index);
+            }
 
             // 마지막 인덱스인 경우 초기화
             if (index == randomEntries.Count - 1)

@@ -81,6 +81,13 @@
                 HorizontalAlignment="Left"
                 Content="이전"
                 Click="PrevBtn_Click"/>
+        <TextBlock Grid.Row="8"
+                   Name="RemainCntTextBlock"
+                   Margin="10"
+                   FontSize="20"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Text="3 / 41" />
         <Button Grid.Row="8"
                 Name="NextBtn"
                 Margin="10"

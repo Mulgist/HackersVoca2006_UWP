@@ -1025,6 +1025,13 @@
                             Margin="10"
                             Content="SP 47"
                             Click="DayBtn_Click" />
+                    <Button Grid.Column="2"
+                            Name="SpBtn48"
+                            Height="40"
+                            HorizontalAlignment="Stretch"
+                            Margin="10"
+                            Content="SP 48"
+                            Click="DayBtn_Click" />
                 </Grid>
             </StackPanel>
         </ScrollViewer>
